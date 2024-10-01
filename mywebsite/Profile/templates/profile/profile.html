@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile - My Website{% endblock %}
+
+{% block content %}
+<h1>{{ profile.name }}</h1>
+<p> Email           : {{ profile.email }}</p>
+<p> No.             : {{ profile.phone }}</p>
+<p> Alamat          : {{ profile.address }}</p>
+<p> Tentang Saya    : {{ profile.about }}</p>
+<p> Riwayat Sekolah : {{ profile.education }}</p>
+<p> Pengalaman      : {{ profile.experience }}</p>
+<p> Keterampilan    : {{ profile.skills }}</p>
+{% endblock %}          

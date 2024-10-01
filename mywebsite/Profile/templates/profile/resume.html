@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Resume - My Website{% endblock %}
+
+{% block content %}
+  <h1>Resume</h1>
+  {% for item in resume %}
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.description }}</p>
+    <p>{{ item.start_date }} - {{ item.end_date }}</p>
+  {% endfor %}
+  {% endblock %}
