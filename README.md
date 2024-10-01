@@ -150,7 +150,7 @@ URL ini akan mengarah ke view `project_list` yang menampilkan semua proyek.
 ### 5. Mengatur Setting
 Kami juga mengonfigurasi `settings.py` untuk menambahkan aplikasi ke dalam `INSTALLED_APPS`:
 ```python
-#prjects/settings.py
+#mywebsite/settings.py
 .
 .
 .
